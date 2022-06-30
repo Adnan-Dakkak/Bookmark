@@ -1,0 +1,467 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Epilogue', sans-serif;
+}
+
+
+
+/* title section */
+
+#title-section {
+  background-color: white;
+}
+
+.a-nav {
+  color: black;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.a-nav:hover {
+  color:  hsl(231, 69%, 60%);
+}
+
+.p1 {
+  font-size: 18px;
+  width: 400px;
+  color: grey;
+}
+
+.btn-primary {
+  background-color: hsl(231, 69%, 60%);
+  border-color: hsl(231, 69%, 60%);
+}
+
+.fa-brands {
+  margin-right: 5px;
+}
+
+.fa-circle-bookmark {
+  background-color: blue;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+
+.titletext {
+  margin-top: 100px;
+}
+
+/* making the title section responsive: */
+@media (max-width: 991px) {
+.navbar-collapse{
+  position: absolute;
+  right:1%;
+  top: 60px;
+}
+}
+
+@media (max-width: 1143px) {
+  .titletext {
+    margin-top: 20px;
+  }
+  .titleimg {
+  margin-top: 40px;
+  }
+}
+
+
+.titlebodytext {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+@media (max-width: 630px) {
+  .titleimg {
+    position: relative;
+    top: 40px;
+    width: 600px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 580px) {
+  .titleimg {
+    width: 480px;
+  }
+}
+
+@media (max-width: 414px) {
+  .titleimg {
+    width: 360px;
+  }
+
+  .p1 {
+    width: 290px;
+  }
+
+  .titletext {
+    margin-top: 20px;
+  }
+
+  .btn-title {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 321px) {
+  .titleimg {
+    width: 300px;
+  }
+
+  .p1 {
+    width: 250px;
+  }
+}
+/* the end of the title section */
+
+
+
+
+
+/* features section */
+
+#features-section {
+  margin-top: 160px;
+  margin-bottom: 110px;
+  text-align: center;
+  height: 800px;
+}
+
+.featuresp1 {
+  color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  font-size: 18px;
+  width: 550px;
+  color: grey;
+}
+
+.featuresp {
+  color: grey;
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.w-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featuresimg2 {
+  height: 346px;
+}
+
+.featuresimg3 {
+  height: 346px;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+hr {
+  border-top: 2px solid hsl(231, 69%, 60%);
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MoreInfo-button-features {
+  position: relative;
+  bottom: 35px;
+  background-color: hsl(231, 69%, 60%);
+  border-color: hsl(231, 69%, 60%);
+  margin-bottom: 15px;
+}
+
+
+/* making it responsive: */
+@media (max-width: 375px) {
+  .featuresp1 {
+    width: 320px;
+  }
+
+  .featuresp {
+    width: 225px;
+  }
+
+  .featuresp11 {
+    width: 220px;
+    font-size: 14.5px;
+  }
+}
+
+@media (max-width: 394px) {
+  .featuresp1 {
+    width: 350px;
+  }
+
+  .featuresp {
+    width: 265px;
+  }
+
+  .featuresp11 {
+    width: 280px;
+    font-size: 14.5px;
+  }
+}
+
+
+@media (max-width: 580px) {
+  .featuresp1 {
+    width: 350px;
+  }
+
+  .featuresp {
+    width: 365px;
+  }
+
+  .featuresp11 {
+    width: 380px;
+    font-size: 14.5px;
+  }
+}
+@media (max-width: 321px) {
+  .featuresp1 {
+    width: 250px;
+  }
+
+  .featuresp {
+    width: 265px;
+  }
+
+  .featuresp11 {
+    width: 280px;
+  }
+}
+/* the end of the features section */
+
+
+
+
+
+
+/* download section */
+
+#download-section {
+  background-color: white;
+  text-align: center;
+  height: 680px;
+}
+
+.card-img-top {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.col-card {
+  width: 300px;
+}
+
+.col-card1 {
+  margin-left: auto;
+}
+
+.col-card3 {
+  margin-right: auto;
+}
+
+.cta-hr {
+  border-top: dotted 1px grey;
+  border-width: 4px;
+  margin-bottom: 25px;
+}
+
+.card-text {
+  color: grey;
+  margin-bottom: 40px;
+}
+/* the end of the download section */
+
+
+
+
+/* FAQs section */
+
+#FAQs-section {
+  background-color: white;
+  margin-bottom: 160px;
+  text-align: center;
+  height: 400px;
+}
+
+.accordion-body {
+  color: grey;
+  text-align: left;
+}
+
+.accordion-item {
+  width: 602px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 0;
+  border-right: 0;
+}
+
+/* making the FAQ section responsive: */
+
+@media (max-width: 600px) {
+  .faq-title {
+    margin-top: 320px;
+  }
+
+  .accordion-item {
+    width: 410px;
+  }
+}
+
+@media (max-width: 391px) {
+  .faq-title {
+    margin-top: 550px;
+  }
+
+  .accordion-item {
+    width: 300px;
+  }
+}
+/* the end of the faq section */
+
+
+
+
+
+/* last section */
+
+#last-section {
+  background-color: hsl(231, 69%, 60%);
+  text-align: center;
+  height: 400px;
+}
+
+.email-input {
+  height: 37.5px;
+  width: 200px;
+}
+
+.form-control {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 250px;
+  display: inline-grid;
+}
+
+.button-email {
+  height: 39.8px;
+}
+
+.footer-h5 {
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 38px;
+}
+
+.footer-h2 {
+  width: 380px;
+  color: white;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+/* the end of the last section */
+
+
+
+
+/* footer section */
+
+#footer-section {
+  background-color: hsl(229, 31%, 21%);
+  height: 80px;
+}
+
+.afooter {
+  color: hsl(229, 8%, 60%);
+  font-size: 12px;
+  text-decoration: none;
+  margin-right: 30px;
+  position: relative;
+  top: 25px;
+}
+
+.afooter:hover {
+  color: hsl(231, 69%, 60%);
+}
+
+.footerimg {
+  width: 160px;
+  position: relative;
+  top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logosfooter {
+  position: absolute;
+  right: 30px;
+}
+
+.iconsfooter {
+  margin-right: 20px;
+}
+
+
+/* making the footer responsive: */
+@media (max-width: 580px) {
+  .logosfooter {
+    position: absolute;
+    right: 10px;
+  }
+
+  .afooter {
+    margin-right: 5px;
+  }
+
+  .footerimg {
+    width: 130px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .logosfooter {
+    position: absolute;
+    right: 1px;
+    margin-right: 5px;
+  }
+
+  .iconsfooter {
+    margin-right: 1px;
+  }
+}
+
+@media (max-width: 400px) {
+  .afooter {
+    margin-right: 0px;
+    font-size: 10px;
+  }
+
+
+  /* the end */
